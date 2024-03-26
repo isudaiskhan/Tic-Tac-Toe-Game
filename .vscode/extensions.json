@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "dzannotti.vscode-babel-coloring",
+        "mgmcdermott.vscode-language-babel",
+        "rodrigovallades.es7-react-js-snippets",
+        "esbenp.prettier-vscode",
+        "burkeholland.simple-react-snippets",
+        "bradlc.vscode-tailwindcss",
+        "vscode-icons-team.vscode-icons"
+    ]
+}

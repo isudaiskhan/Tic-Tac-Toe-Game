@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+body{
+    background-color: #0f1b21;
+}
+
+
+  .board-row {
+    display: flex;
+    margin-bottom: 6px; /* Add a margin between rows */ 
+  }
+  
+  .square {
+    flex: 1;
+    height: 120px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #203c49;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    margin-right: 6px; /* Add a margin between squares */
+  }
+  
+
+.winning-square {
+  background-color: rgb(58, 211, 127); /* Customize this color as needed */
+  /* Add additional styles to highlight the winning line */
+}
