@@ -107,15 +107,16 @@ const TicTacToeGame = () => {
 
 
   return (
+    <>
     <div className="w-96 mx-auto text-center">
       <div className="mt-6 text-white text-4xl">{status}</div>
-      <div className="board-row mt-14">
+      <div className="board-row mt-14 sm:ps-0 sm:pe-0 ps-5 pe-5">
         {Array.from({ length: 3 }, (_, col) => renderSquare(col))}
       </div>
-      <div className="board-row">
+      <div className="board-row sm:ps-0 sm:pe-0 ps-5 pe-5">
         {Array.from({ length: 3 }, (_, col) => renderSquare(3 + col))}
       </div>
-      <div className="board-row">
+      <div className="board-row sm:ps-0 sm:pe-0 ps-5 pe-5">
         {Array.from({ length: 3 }, (_, col) => renderSquare(6 + col))}
       </div>
 
@@ -130,6 +131,7 @@ const TicTacToeGame = () => {
 
       <audio ref={audioRef} src={winningSound} />
     </div>
+    </>
   );
 };
 
